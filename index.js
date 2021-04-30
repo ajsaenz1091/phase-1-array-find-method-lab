@@ -12,9 +12,5 @@ function superbowlWin(record){
             return log;
         }
     })
-    if(found){
-      return found.year;
-    }else{
-      return found
-    }
+    return found ? found.year : found;
 }
